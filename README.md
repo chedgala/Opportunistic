@@ -66,8 +66,8 @@ This section shows how to access the methods proposed in this work through avail
 ``` r
 library(Opportunistic)
 #An N=5 Opportunistic system with probabilities
-p <- c(0.85, 0.72, 0.50, 0.28, 0.05)
-routes(p) # routes distribution
+> p <- c(0.85, 0.72, 0.50, 0.28, 0.05)
+> routes(p) # routes distribution
 
            Freq Probability   Value
 route 1       1        p1^5 0.44371
@@ -82,8 +82,8 @@ Total        16
 
 ``` r
 #An N=5 Opportunistic system with probabilities
-p <- c(0.85, 0.72, 0.50, 0.28, 0.05)
-True = Expected(p)
+> p <- c(0.85, 0.72, 0.50, 0.28, 0.05)
+> True = Expected(p)
 
 ###########################################
 Opportunistic Model - Theoretical results
@@ -101,7 +101,7 @@ Exp Broadcast       1.00 1.850 3.293  5.631  9.362
 
 ``` r
 #An N=5 Opportunistic system with probabilities 
-p <- c(0.85, 0.72, 0.50, 0.28, 0.05)
+> p <- c(0.85, 0.72, 0.50, 0.28, 0.05)
 > Estimated = MonteCarlo(p,M=10^6)
 
 ###########################################
