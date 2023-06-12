@@ -61,8 +61,7 @@ research work \[1\].
 
 ## Tutorial
 
-En esta sección se muestra cómo acceder a los métodos propuestos en este
-trabajo a través de funciones de usuario disponibles.
+This section shows how to access the methods proposed in this work through available user functions.
 
 ``` r
 library(Opportunistic)
